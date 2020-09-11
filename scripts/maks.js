@@ -11,7 +11,7 @@ class Dog {
     }
 
     introduceMySelf() {
-        return 'Hello my name is'+ this.name + ', My age is ' + this.age + '  year  and I have ' + this. numberOfLegs + ' legs.';
+        return 'Hello my name is'+ this.name + ', My age is ' + this.age + '  year and I have ' + this. numberOfLegs + ' legs.';
     }
 }
 
