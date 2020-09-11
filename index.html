@@ -6,6 +6,27 @@
   <title>FWD Lesson</title>
 </head>
 <body>
-  
+  <form action="" id="user-form">
+    <h2>Add user</h2>
+    <input type="text" placeholder="What's your name?" name="firstName" id="first-name" required>
+    <br>
+    <br>
+    <input type="number" min="1" placeholder="What's your?" name="age" id="age" required>
+    <br>
+    <br>
+    <label for="gender">Please tell us your gender:</label><br>
+    <select name="gender" id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Add</button>
+  </form>
+  <h2>List of users</h2>
+  <ul id="users-list"></ul>
+  <button id="play">Play</button>
+
+  <script src="/scripts/oop.js"></script>
 </body>
 </html>
